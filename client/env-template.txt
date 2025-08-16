@@ -1,0 +1,5 @@
+# Copy this file to .env and fill in your values
+
+# API Configuration
+REACT_APP_API_KEY=your_secure_api_key_here
+REACT_APP_API_URL=http://localhost:3001
