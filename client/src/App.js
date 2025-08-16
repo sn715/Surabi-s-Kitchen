@@ -30,7 +30,7 @@ function App() {
           color: 'white', 
           opacity: 0.8 
         }}>
-          <p>Powered by Google Sheets API</p>
+          
         </footer>
       </div>
     </div>
