@@ -1,8 +1,6 @@
 const localDatabase = require('../../server/services/localDatabase');
 
 module.exports = async (req, res) => {
-  console.log('Dishes API called:', { method: req.method, url: req.url, query: req.query });
-  
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
